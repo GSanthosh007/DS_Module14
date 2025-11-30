@@ -12,14 +12,11 @@ To write a C program to delete three elements from the filled circular queue.
 6.	If the queue has more than one element, update front to the next index using modulo operation ((front + 1) % SIZE).
 7.	Return the removed element from the front of the queue.
 8.	End
-   
 
 ## Program:
-```
-/*
 Program to delete three elements from the filled circular queue
 Developed by:Dharani dharan K
-RegisterNumber:  212223040036
+RegisterNumber: 212223040036
 */
 
 /*#include<stdio.h>
@@ -28,7 +25,9 @@ int front =-1, rear =-1;
 */
 int deQueue()
 {
-int element; element=items[front]; if(isEmpty())
+int element;
+element = items[front];
+if(isEmpty())
 {
 printf("Queue is Empty!!");
 }
@@ -38,7 +37,6 @@ if(front==rear)
 {
 front=-1; rear=-1;
 }
- 
 else
 {
 front=(front+1)%SIZE;
@@ -47,12 +45,9 @@ front=(front+1)%SIZE;
 return element;
 }
 
-```
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/c7182b0c-6d03-4252-8a4a-0617ebf540ef)
-
-
 
 ## Result:
 Thus, the C program to delete three elements from the filled circular queue is implemented successfully.
