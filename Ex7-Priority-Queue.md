@@ -10,32 +10,38 @@ To formulate the C code to display the elements of the priority queue after inse
 4.	Print each element of the array during the loop.
 5.	After printing all elements, print a newline for formatting.
 6.	End
-   
 
 ## Program:
-```
 /*
-Program to o display the elements of the priority queue after insertion and deletion operation
+Program to display the elements of the priority queue after insertion and deletion operation
 Developed by:Dharani dharan K
-RegisterNumber:  212223040036
+RegisterNumber: 212223040036
 */
 #include<stdio.h>
- int size = 0;
-voidprintArray(int array[], int size)
+
+int size = 0;
+
+void printArray(int array[], int size)
 {
-int i; for(i=0;i<size;i++)
+int i;
+for(i=0;i<size;i++)
 {
 printf("%d ",array[i]);
 }
 printf("\n");
 }
 
-```
+arduino
+Copy code
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/5c1dfe21-90b4-4c18-b9b1-1347928ab70e)
 
-
-
 ## Result:
-Thus, the C program to display the elements of the priority queue after insertion and deletion operation is implemented successfully
+Thus, the C program to display the elements of the priority queue after insertion and deletion operation is implemented successfully.
+
+
+
+
+
+
